@@ -83,7 +83,6 @@ The consumption values from the three phases were combined to calculate total el
 
 The project follows this pipeline:
 
-```text
 Smart Meter Data
        ↓
 Data Cleaning & Preprocessing
@@ -175,8 +174,9 @@ Anomaly events by hour
 Meter filter
 Date range filter
 
-###Dashboard Preview
-<img width="1297" height="736" alt="powerbi_dashboard" src="https://github.com/user-attachments/assets/0bf077fa-7aa7-411a-a606-a5965a1dd539" />
+##Dashboard Preview
+
+<img width="1297" height="736" alt="powerbi_dashboard" src="https://github.com/user-attachments/assets/27a2928f-efef-4b45-8ac4-a7fce62e1b17" />
 
 
 The frontend communicates with the FastAPI backend using Axios.
@@ -212,6 +212,7 @@ Energy-Theft-Detection Project/
 ├── screenshots/
 ├── .gitignore
 └── README.md
+
 How to Run
 Backend
 
@@ -231,7 +232,7 @@ Start the FastAPI server:
 
 uvicorn backend.main:app --reload
 
-API documentation:
+- API documentation:
 
 http://127.0.0.1:8000/docs
 Frontend
@@ -247,7 +248,9 @@ npm install
 Start the React application:
 
 npm run dev
-Limitations
+
+- Limitations
+
 The project uses historical smart-meter data rather than live electricity-grid data.
 Anomalies do not automatically mean electricity theft.
 The dataset contains some missing periods and different amounts of data for different meters.
@@ -260,8 +263,9 @@ Cloud deployment
 User authentication
 Advanced anomaly detection models
 Model monitoring and retraining
-Author
+
+- Author
 
 Sakshi Goswami
-
+Department - 
 Electronics & Telecommunication Engineering
