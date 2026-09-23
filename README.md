@@ -175,6 +175,10 @@ Anomaly events by hour
 Meter filter
 Date range filter
 
+###Dashboard Preview
+<img width="1297" height="736" alt="powerbi_dashboard" src="https://github.com/user-attachments/assets/0bf077fa-7aa7-411a-a606-a5965a1dd539" />
+
+
 The frontend communicates with the FastAPI backend using Axios.
 
 Power BI Dashboard
